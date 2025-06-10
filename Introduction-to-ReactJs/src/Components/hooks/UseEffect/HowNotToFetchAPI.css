@@ -1,0 +1,41 @@
+.api-container {
+    padding: 20px;
+    max-width: 800px;
+    margin: 0 auto;
+    font-family: Arial, sans-serif;
+}
+
+.title {
+    text-align: center;
+    color: #333;
+    margin-bottom: 30px;
+}
+
+.post-list {
+    list-style: none;
+    padding: 0;
+}
+
+.post-card {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 15px;
+    margin-bottom: 20px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    background-color: #fafafa;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.post-card:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 4px 8px rgba(0,0,0,0.15);
+}
+
+.post-card h2 {
+    margin-top: 0;
+    color: #000000;
+}
+
+.post-card p {
+    margin: 8px 0;
+}

@@ -1,0 +1,32 @@
+import { StrictMode } from 'react'
+import { createRoot } from 'react-dom/client'
+import './index.css'
+import App from './App.jsx'
+import Netflix from './Components/NetflixSeries.jsx'
+import EventPropagationUsingBubbling from './Components/EventPropagationBubling.jsx'
+import NumberCount, { ChildComponent, Sibling } from './Components/hooks/UseState/states.jsx'
+import LiftStateUp from './Components/LiftStateUp.jsx'
+import SortCircuit from './Components/SortCircit.jsx'
+import CountHooks from './Components/hooks/UseState/CountHooks.jsx'
+import ReactForms from './Components/hooks/UseState/ReactForms.jsx'
+import UseEffectExample from './Components/hooks/UseEffect/UseEffectExample.jsx'
+import { HowNotToFetchAPI } from './Components/hooks/UseEffect/HowNotToFetchAPI.jsx'
+import { HowToFetchAPI } from './Components/hooks/UseEffect/HowToFetchApi.jsx'
+
+createRoot(document.getElementById('root')).render(
+  <>
+    {/* <App /> */}
+    {/* <Netflix/> */}
+    {/* <EventPropagationUsingBubbling /> */}
+    {/* <NumberCount/> */}
+    {/* <ChildComponent /> */}
+    {/* <Sibling /> */}
+    {/* <LiftStateUp /> */}
+    {/* <SortCircuit /> */}
+    {/* <CountHooks /> */}
+    {/* <ReactForms/> */}
+    {/* <UseEffectExample/> */}
+    {/* <HowNotToFetchAPI/> */}
+    <HowToFetchAPI/>
+  </>,
+)

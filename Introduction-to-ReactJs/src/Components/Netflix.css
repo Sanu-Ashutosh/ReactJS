@@ -1,0 +1,74 @@
+/* Netflix.css */
+
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+  padding: 20px;
+}
+
+.card {
+  background-color: #1c1c1c;
+  color: white;
+  width: 300px;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.3);
+  transition: transform 0.3s ease;
+}
+
+.card:hover {
+  transform: scale(1.05);
+}
+
+.card img {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+}
+
+.card-content {
+  padding: 15px;
+}
+
+.card-content div {
+  margin-bottom: 10px;
+}
+
+.card button {
+  background-color: red;
+  color: white;
+  padding: 10px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.card button:hover {
+  background-color: darkred;
+}
+
+.body{
+  background-color: black;
+}
+
+.super_hit{
+  background-color: #7dcea0;
+}
+
+.average{
+  background-color: #f7dc6f;
+ 
+}
+.rating{
+  padding: 0.3rem 1.8rem;
+  color: black;
+  margin-left: 1.2rem;
+  border-radius: 80rem;
+  -webkit-border-radius: 80rem;
+  -moz-border-radius: 80rem;
+  -ms-border-radius: 80rem;
+  -o-border-radius: 80rem;
+}

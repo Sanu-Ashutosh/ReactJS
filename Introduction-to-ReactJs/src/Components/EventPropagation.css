@@ -1,0 +1,49 @@
+.section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f9f9f9;
+}
+
+.grandparent {
+    background-color: #ffcdd2;
+    padding: 40px;
+    border: 2px solid #f44336;
+    border-radius: 10px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+/* Update grandparent hover to exclude when hovering on parent or child */
+.grandparent:hover {
+    background-color: #db0012;
+}
+
+.parent {
+    background-color: #bbdefb;
+    padding: 30px;
+    border: 2px solid #2196f3;
+    border-radius: 10px;
+    margin-top: 10px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.parent:hover {
+    background-color: #2196f3;
+}
+
+.child {
+    background-color: #c8e6c9;
+    padding: 10px 20px;
+    border: 2px solid #4caf50;
+    border-radius: 5px;
+    margin-top: 10px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.child:hover {
+    background-color: #0ef616;
+}

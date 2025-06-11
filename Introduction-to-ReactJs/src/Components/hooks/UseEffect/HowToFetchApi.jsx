@@ -37,7 +37,6 @@ export let HowToFetchAPI = () => {
         return (
             <div>
                 <LoadingSpinner />
-                
             </div>
         );
 

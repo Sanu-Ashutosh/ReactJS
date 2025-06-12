@@ -1,7 +1,7 @@
 let PokemonCard = ()=>{
     return(
         <>
-        <h1>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia, eius voluptatibus?</h1>
+        <h1>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Molestiae, quibusdam eum inventore provident pariatur necessitatibus libero dolores laborum nostrum odit modi. Magni numquam sunt vel ducimus quisquam aperiam ea totam maxime inventore odio id tenetur facere, perferendis in, temporibus similique aliquam repellendus dolore repudiandae quo. Illum, ea laudantium sapiente placeat eos voluptatibus quae, quibusdam, ad hic consectetur nisi perferendis officiis enim quo? Voluptatibus itaque doloribus enim maiores eos odio quaerat aliquam libero provident quis, reiciendis natus nisi quam nemo ipsa. Deleniti velit quisquam recusandae voluptate consequatur beatae accusamus voluptas vitae voluptatem enim fugit necessitatibus, debitis quam, quis error libero praesentium non? Ut fuga aliquid, maiores, neque numquam illum vel, sed dolorum debitis aut repellendus temporibus laborum deserunt labore voluptas voluptates quisquam quidem ea libero officiis quibusdam unde. Tempora, dicta deserunt! Maiores sed labore quibusdam culpa sapiente dolorem fugit hic alias aperiam autem, nihil ipsa nobis modi vel temporibus ducimus, debitis officiis libero animi unde sequi esse quaerat laboriosam eligendi! Nulla illo eaque aliquam deleniti itaque sapiente illum maiores laborum saepe non? Saepe recusandae nostrum dolorum debitis. Doloremque, dicta perspiciatis in laboriosam magni maiores sequi eligendi tempora a repellendus exercitationem eos optio cumque quibusdam laborum veniam consequuntur ab saepe? Repellat, a.</h1>
         </>
     );
 }

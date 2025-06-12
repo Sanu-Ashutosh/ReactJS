@@ -1,0 +1,6 @@
+let PokemonCard = ()=>{
+    return(
+        <>
+        </>
+    );
+}

@@ -12,6 +12,8 @@ import ReactForms from './Components/hooks/UseState/ReactForms.jsx'
 import UseEffectExample from './Components/hooks/UseEffect/UseEffectExample.jsx'
 import { HowNotToFetchAPI } from './Components/hooks/UseEffect/HowNotToFetchAPI.jsx'
 import { HowToFetchAPI } from './Components/hooks/UseEffect/HowToFetchApi.jsx'
+import UseRef from './Components/hooks/UseRef/UseRef.jsx'
+import UseIDExp from './Components/hooks/UseId/UseIDExp.jsx'
 
 createRoot(document.getElementById('root')).render(
   <>
@@ -27,6 +29,8 @@ createRoot(document.getElementById('root')).render(
     {/* <ReactForms/> */}
     {/* <UseEffectExample/> */}
     {/* <HowNotToFetchAPI/> */}
-    <HowToFetchAPI/>
+    {/* <HowToFetchAPI/> */}
+    {/* <UseRef/> */}
+    <UseIDExp/>
   </>,
 )

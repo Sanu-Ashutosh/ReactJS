@@ -14,6 +14,8 @@ import { HowNotToFetchAPI } from './Components/hooks/UseEffect/HowNotToFetchAPI.
 import { HowToFetchAPI } from './Components/hooks/UseEffect/HowToFetchApi.jsx'
 import UseRef from './Components/hooks/UseRef/UseRef.jsx'
 import UseIDExp from './Components/hooks/UseId/UseIDExp.jsx'
+import { BioProvider } from './Components/hooks/UseContext/UseContextStore.jsx'
+import { Home } from './Components/hooks/UseContext/index.jsx'
 
 createRoot(document.getElementById('root')).render(
   <>
@@ -31,6 +33,9 @@ createRoot(document.getElementById('root')).render(
     {/* <HowNotToFetchAPI/> */}
     {/* <HowToFetchAPI/> */}
     {/* <UseRef/> */}
-    <UseIDExp/>
+    {/* <UseIDExp/> */}
+    <BioProvider>
+      <Home/>
+    </BioProvider>
   </>,
 )

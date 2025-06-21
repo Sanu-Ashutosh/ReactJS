@@ -11,7 +11,7 @@ import { useId } from "react";
 
     return (
         <>
-        <h1 onMouseEnter={HandelHover} id={useId()}> Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni, eius.</h1>
+        <h1 onMouseEnter={HandelHover} id={`${id}heading`}> Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni, eius.</h1>
 
         <h2 id={useId()}>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus, amet!</h2>
         <h2 id={useId()}>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus, amet!</h2>

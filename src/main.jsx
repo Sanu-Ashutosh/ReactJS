@@ -16,6 +16,7 @@ import UseRef from './Components/hooks/UseRef/UseRef.jsx'
 import UseIDExp from './Components/hooks/UseId/UseIDExp.jsx'
 import { BioProvider } from './Components/hooks/UseContext/UseContextStore.jsx'
 import { Home } from './Components/hooks/UseContext/index.jsx'
+import SwitchMode, { Check1 } from './Components/DarkModeLightModeP/SwitchMode.jsx'
 
 createRoot(document.getElementById('root')).render(
   <>
@@ -34,8 +35,10 @@ createRoot(document.getElementById('root')).render(
     {/* <HowToFetchAPI/> */}
     {/* <UseRef/> */}
     {/* <UseIDExp/> */}
-    <BioProvider>
+    {/* <BioProvider>
       <Home/>
-    </BioProvider>
+    </BioProvider> */}
+    {/* <SwitchMode/> */}
+    <Check1 />
   </>,
 )

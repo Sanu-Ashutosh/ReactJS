@@ -1,0 +1,96 @@
+/* SwitchMode.css */
+.container {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 2rem;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    transition: background-color 0.4s ease, color 0.4s ease;
+  }
+  
+  .container.dark {
+    background: linear-gradient(135deg, #1f1f2e, #2c2c3c);
+    color: #f1f1f1;
+  }
+  
+  .container.light {
+    background: linear-gradient(135deg, #e6e9f0, #f0f3f8);
+    color: #1f1f1f;
+  }
+  
+  h1, h3 {
+    margin: 0.5rem 0;
+  }
+  
+  p {
+    max-width: 600px;
+    text-align: center;
+    margin-bottom: 1.5rem;
+  }
+  
+  .button button {
+    background-color: transparent;
+    border: 2px solid currentColor;
+    color: inherit;
+    padding: 0.75rem 1.25rem;
+    font-size: 1.8rem;
+    border-radius: 50%;
+    cursor: pointer;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  }
+  
+  .button button:hover {
+    transform: scale(1.1);
+    box-shadow: 0 6px 20px rgba(0,0,0,0.2);
+  }
+
+  a{
+    text-decoration: none;
+    color: rgb(0, 234, 255);
+  }
+  
+
+  .container h1 {
+    font-size: 3rem;
+    font-weight: 700;
+    letter-spacing: 1px;
+    margin-bottom: 0.5rem;
+    text-align: center;
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.2);
+  }
+  
+  .container h3 {
+    font-size: 1.5rem;
+    font-weight: 500;
+    color: #888;
+    margin-bottom: 1.2rem;
+    text-align: center;
+    font-style: italic;
+  }
+  
+  .container p {
+    font-size: 1.1rem;
+    max-width: 700px;
+    text-align: center;
+    line-height: 1.6;
+    margin-bottom: 2rem;
+    padding: 0 1rem;
+    color: inherit;
+  }
+  
+  .button button span {
+    font-size: 1rem;
+    margin-left: 0.5rem;
+    vertical-align: middle;
+    font-weight: 500;
+    letter-spacing: 0.5px;
+    transition: color 0.3s ease;
+  }
+  
+  .button button:hover span {
+    color: #ff9900;
+  }
+  

@@ -1,3 +1,5 @@
+import React, { memo } from 'react';
+
 import { useState } from "react";
 
 import "./CountHooks.css"
@@ -53,4 +55,4 @@ let CountHooks = () => {
     );
 };
 
-export default CountHooks;
+export default memo(CountHooks);

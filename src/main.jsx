@@ -20,6 +20,7 @@ import SwitchMode, { Check1 } from './Components/DarkModeLightModeP/SwitchMode.j
 import UseReducerComp from './Components/hooks/useReducer/UseReducerComp.jsx'
 import ReactMemo from './Components/hooks/MemoALl/ReactMemo.jsx'
 import UseMemo from './Components/hooks/MemoALl/UseMemo.jsx'
+import FetchAPIRouter from './Components/Router/FetchAPIRouter.jsx'
 
 createRoot(document.getElementById('root')).render(
   <>
@@ -45,6 +46,7 @@ createRoot(document.getElementById('root')).render(
     {/* <Check1 /> */}
     {/* <UseReducerComp/> */}
     {/* <ReactMemo/> */}
-    <UseMemo/>
+    {/* <UseMemo/> */}
+    <FetchAPIRouter/>
   </>,
 )

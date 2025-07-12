@@ -30,7 +30,7 @@ let UseMemo = () => {
     return (
         <>
             <h1>{count}</h1>
-            <button onClick={()=>{setCount((prv)=>prv+1)}} >Increment</button>
+            <button onClick={()=>{setCount((prv)=>prv+ 1)}} >Increment</button>
             <ChildComponent />
         </>
     );

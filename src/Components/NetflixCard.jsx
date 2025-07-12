@@ -2,7 +2,7 @@ let NetflixCard = (props) => {
     //Object destructuring
     let { item } = props;
 
-    let HandelSubmit = (event)=>{
+    let HandelSubmit = (event) => {
         event.preventDefault();
         console.log(event);
         alert("I am onClick event")
@@ -26,8 +26,8 @@ let NetflixCard = (props) => {
                     </a>
                 </div>
                 <div>
-                   <input type="email" name="email" id="eml" />
-                    <button onClick= {HandelSubmit}>Submit</button>
+                    <input type="email" name="email" id="eml" />
+                    <button onClick={HandelSubmit}>Submit</button>
                 </div>
             </div>
         </div>
